@@ -60,6 +60,9 @@ We present our method and the baseline method TEST (direct test without adaptati
 
     # TEST:
     bash scripts/test_cifar10.sh snow MNIST
+
+    # TENT:
+    bash scripts/tent_cifar10.sh snow MNIST
     ```
 
     The following results are yielded by the above scripts (%) under the snow corruption, and with MNIST as strong OOD:
@@ -68,6 +71,9 @@ We present our method and the baseline method TEST (direct test without adaptati
     |:------:|:-------:|:-------:|:-------:|
     |  TEST  |   66.36   |    91.56   |   76.95  |
     |  OURS  |   84.05    |    97.46   | 90.26|
+    |  TENT  |   59.49   |    77.38   |   67.27  |
+
+
 
 - run OURS method or the baeline method TEST on CIFAR100-C under the OWTTT protocol.
     
